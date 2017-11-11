@@ -13,12 +13,13 @@ public class Opgave9komma2 {
     }
 
     static class Stock{
+        //Declarer værdierne der skal bruges
         String symbol;
         String name;
         double previousClosingPrice;
         double currentPrice;
 
-        //tillader bruger at skrive værdier i classen
+        //En constructor der tillader bruger at skrive værdier i classen
         Stock(String newName,String newSymbol,double newPrice, double oldPrice){
             name=newName;
             symbol=newSymbol;
